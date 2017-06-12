@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Project</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+    <script type="text/javascript">
+        var speed=1
+        var currentpos=0,curpos1=0,curpos2=-1;
+
+        function scrollwindow(){
+            if(curpos1!=curpos2){
+                currentpos = (document.all) ? document.body.scrollTop+speed : window.pageYOffset+speed;
+                window.scrollTo(0,currentpos)
+            }
+            else{
+                currentpos=0
+                window.scrollTo(0,currentpos)
+            }
+        }
+
+        function startit(){
+            setInterval("scrollwindow()",35)
+        }
+
+        window.onload=startit;
+    </script>
+
+
+</head>
+
+<body>
+
+<pre>
+<img src="images/story1.png">
+<img id="upside" src="images/upside.png">
+
+在一個古老的城市中，
+
+有幾位德高望重的長老。
+
+這些長老決定城市如何運作並負責重要的決策。
+
+但他們每個人的住處遍布整個城市且都沒有住在一起。
+
+這些長老要聯絡彼此、傳送訊息，
+
+只有一種方法，
+
+就是把訊息寫在巨大的矩形石板上，
+
+然後由信使帶著這些大石板去目的地。
+
+
+<!-- 但長老不能確定信使能正確的把石板送到目的地，
+
+因為有些信使既懶散又健忘。
+
+他們常常在工作時偷懶，
+
+休息一大段時間，甚至逃離這個城市。 -->
+為了確保聯絡管道的正確性，長老們想要設置一套規則，
+
+來確保他們的訊息是否已送出以及訊息的正確性。
+
+長老們已經決定收信者的地址應該要被寫在石碑上。
+
+但......又會遇到什麼困難呢？
+<img id="downside" src="images/downside.png">
+<a href="#"><img src="images/button1.png"></a>
+</pre>
+
+</body>
+
+</html>

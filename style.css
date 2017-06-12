@@ -1,0 +1,47 @@
+body{
+	background:#333 url(images/picture0.jpg) repeat top left;
+	background-size: cover;
+	font-family:Arial;
+}
+#top_header {
+	margin: 20px 20px 100px 20px;
+	display: flex;
+	align-items: center;	
+	/*text-align: center;*/
+	/*padding-left: 20px;*/
+	font-size: 72px;
+	color:white;
+	text-shadow: 0.25px 0.25px 0.25px black;
+	font: bold;
+}
+/*h2{
+	font:bold 24px Tahoma;
+	text-align: center;
+	color:#0B75AF
+}
+*/
+header .row{
+	display: flex;
+  	align-items: center;
+}
+.hover{
+  /*display: flex;*/
+  text-align: center;
+  position:relative;
+}
+.start{
+	margin: 20px;	
+  	text-align: center;
+}
+
+.hover img {
+  
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+  opacity:0; /*滑鼠滑入時，透明度變0*/
+}

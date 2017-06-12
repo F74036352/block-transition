@@ -1,0 +1,23 @@
+body {
+  background-color: #345;
+  background: url(images/picture4.jpg);
+  background-size: cover;
+}
+
+pre {
+  color :#444444;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0.5px white;
+  font:bold;
+  margin: auto;
+  font-family:Microsoft YaHei,helvetica,arial,sans-serif;
+}
+#upside{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+#downside{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
