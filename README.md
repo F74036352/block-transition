@@ -27,22 +27,12 @@ CSS:
 5.	font: Tahoma bold->更改字型設為粗體。
 6.	text-shadow: 0.5px 0.5px 0.5px black->設定字體的陰影及陰影顏色為黑色。
 
-html5:
-1.	<p>:設定文字。
-2.	<img>:設定圖片。
-3.	<a href=”#”>:設定連結。
-4.	<button onclick="#">:設定按鈕以及按下去後所執行的動作。
-5.	<input type="text" id="myText" maxlength="2">:設定輸入文字的欄位以及限制輸入的長度。
-
-
-
+html5
 
 Javascript:
 1.	function scrollwindow():使用window.scrollTo使頁面達到自動下拉的效果。
 2.	function startit():藉由setInterval("scrollwindow()",35)設定多久會下拉一次，而一次下拉多少在scrollwindow()中有設定。
-3.	function getQusetion():
-將所有可能先宣告-> var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-再使用亂數產生長度，產生石板傳送時的題目。
+3.	function getQusetion():將所有可能先宣告-> var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";再使用亂數產生長度，產生石板傳送時的題目。
 4.	function sendMode():依照遊戲規定從三種mode中，隨機選擇一種石板傳送的mode。
 5.	function sendText():依照產生的mode，選擇傳送的過程會發生的事情以及最後的結果。
 6.	function sent(text):顯示收到的石板訊息。
