@@ -19,6 +19,7 @@
 
 
 使用技術:
+
 CSS: 
 1.	font-siz->調整字體大小。
 2.	text-align: center->排版置中。
